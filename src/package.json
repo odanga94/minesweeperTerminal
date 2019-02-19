@@ -1,0 +1,16 @@
+{
+  "name": "minesweeperintheterminal",
+  "version": "1.0.0",
+  "description": "This is my version of the classic game  minesweeper that runs on the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel src -d lib"
+  },
+  "author": "\"John Odanga\"",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
